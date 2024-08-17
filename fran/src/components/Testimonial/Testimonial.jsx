@@ -20,7 +20,7 @@ const Testimonial = () => {
 
   return (
     <div className="testimonial">
-      <img src={`/images/customer${testimonials[currentTestimonial].id}.jpg`} alt="Customer" />
+      <img src={`./images/customer${testimonials[currentTestimonial].id}.jpg`} alt="Customer" />
       <p>{testimonials[currentTestimonial].text}</p>
       <p><strong>{testimonials[currentTestimonial].author}</strong></p>
       <button onClick={prevTestimonial}>Previous</button>
