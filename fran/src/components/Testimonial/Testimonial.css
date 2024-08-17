@@ -1,0 +1,28 @@
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .testimonial button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimonial button:hover {
+    background-color: #ff4a39;
+  }
+  

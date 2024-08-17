@@ -1,0 +1,39 @@
+.tourist-places {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 48%;
+}
+
+.left-column .place img {
+  width: 100%;
+  height: auto;
+}
+
+.right-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Dos filas de igual altura */
+  gap: 10px; /* Espacio entre las tarjetas */
+  width: 90%;
+}
+
+.right-column > div {
+  width: 100%;
+}
+
+.place {
+  /* No es necesario definir el ancho aquí */
+  margin-bottom: 2px; 
+  transition: transform 0.3s ease; /* Agrega la transición a la tarjeta */
+}
+
+.place:hover {
+  transform: scale(1.1); /* Aplica la escala a la tarjeta */
+}
+
+.place p {
+  
+  margin-top: 1px;
+}
